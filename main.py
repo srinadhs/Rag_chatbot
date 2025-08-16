@@ -1,10 +1,13 @@
 import io
 import os
+os.environ["STREAMLIT_WATCH"] = "false"
 import streamlit as st
 import numpy as np
 import faiss
 from PyPDF2 import PdfReader
 import google.generativeai as genai
+os.environ["STREAMLIT_WATCH"] = "false"
+
 
 # OCR support
 try:
