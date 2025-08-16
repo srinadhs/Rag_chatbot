@@ -1,0 +1,7 @@
+streamlit==1.29.0
+numpy
+faiss-cpu
+PyPDF2
+google-generativeai
+pdf2image
+pytesseract
